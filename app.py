@@ -3,8 +3,8 @@ import pickle
 import matplotlib.pyplot as plt
 
 # Load trained model
-model = pickle.load(open("model/spam_model.pkl", "rb"))
-vectorizer = pickle.load(open("model/vectorizer.pkl", "rb"))
+model = pickle.load(open("spam_model.pkl", "rb"))
+vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 
 # Sidebar
 st.sidebar.title("AI Scam Detector")
